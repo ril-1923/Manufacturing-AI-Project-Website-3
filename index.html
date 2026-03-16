@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechForge Industries - Advanced Manufacturing Solutions</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-industry me-2"></i>TechForge Industries
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <span class="hero-badge">Innovating Since 1985</span>
+                        <h1 class="hero-title">
+                            Next-Generation <span class="text-highlight">Manufacturing</span> Excellence
+                        </h1>
+                        <p class="hero-description">
+                            Leading the future of manufacturing with cutting-edge technology in automotive, 
+                            electronics, and textile production. We deliver precision, quality, and innovation 
+                            that drives industries forward.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#services" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-cogs me-2"></i>Our Solutions
+                            </a>
+                            <a href="#contact" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-comments me-2"></i>Get Started
+                            </a>
+                        </div>
+                        <div class="hero-metrics mt-5">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="metric-item">
+                                        <h3 class="counter" data-target="2500">0</h3>
+                                        <p>Projects Delivered</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="metric-item">
+                                        <h3 class="counter" data-target="40">0</h3>
+                                        <p>Years Experience</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="metric-item">
+                                        <h3 class="counter" data-target="98">0</h3>
+                                        <p>Client Satisfaction</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="main-image-container">
+                            <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                                 alt="Advanced Manufacturing" class="img-fluid main-hero-image">
+                            <div class="overlay-card card-automotive">
+                                <i class="fas fa-car-side"></i>
+                                <div>
+                                    <h6>Automotive</h6>
+                                    <small>Precision Engineering</small>
+                                </div>
+                            </div>
+                            <div class="overlay-card card-electronics">
+                                <i class="fas fa-microchip"></i>
+                                <div>
+                                    <h6>Electronics</h6>
+                                    <small>Smart Technology</small>
+                                </div>
+                            </div>
+                            <div class="overlay-card card-textile">
+                                <i class="fas fa-tshirt"></i>
+                                <div>
+                                    <h6>Textiles</h6>
+                                    <small>Quality Fabrics</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <span class="section-badge">Our Expertise</span>
+                    <h2 class="section-title">Comprehensive Manufacturing Solutions</h2>
+                    <p class="section-description">
+                        We specialize in three core manufacturing sectors, delivering world-class 
+                        products with unmatched precision and quality standards.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card automotive-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <h4>Automotive Manufacturing</h4>
+                        </div>
+                        <p>State-of-the-art automotive component production with precision tooling and advanced quality control systems.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i>Engine Components</li>
+                            <li><i class="fas fa-check"></i>Brake Systems</li>
+                            <li><i class="fas fa-check"></i>Transmission Parts</li>
+                            <li><i class="fas fa-check"></i>Safety Equipment</li>
+                        </ul>
+                        <div class="service-stats">
+                            <div class="stat">
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Auto Parts</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">99.8%</span>
+                                <span class="stat-label">Quality Rate</span>
+                            </div>
+                        </div>
+                        <a href="#" class="service-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card electronics-card featured">
+                        <div class="featured-label">Most Popular</div>
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h4>Electronics Manufacturing</h4>
+                        </div>
+                        <p>Advanced electronics production including PCB assembly, component manufacturing, and complete system integration.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i>PCB Design & Assembly</li>
+                            <li><i class="fas fa-check"></i>Component Testing</li>
+                            <li><i class="fas fa-check"></i>System Integration</li>
+                            <li><i class="fas fa-check"></i>Quality Assurance</li>
+                        </ul>
+                        <div class="service-stats">
+                            <div class="stat">
+                                <span class="stat-number">1M+</span>
+                                <span class="stat-label">Components</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Production</span>
+                            </div>
+                        </div>
+                        <a href="#" class="service-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card textile-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                            <h4>Textile Manufacturing</h4>
+                        </div>
+                        <p>Premium textile production using sustainable materials and innovative manufacturing processes for fashion and industrial applications.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i>Fabric Production</li>
+                            <li><i class="fas fa-check"></i>Garment Assembly</li>
+                            <li><i class="fas fa-check"></i>Quality Control</li>
+                            <li><i class="fas fa-check"></i>Eco-Friendly Materials</li>
+                        </ul>
+                        <div class="service-stats">
+                            <div class="stat">
+                                <span class="stat-number">50K+</span>
+                                <span class="stat-label">Garments/Month</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Sustainable</span>
+                            </div>
+                        </div>
+                        <a href="#" class="service-btn">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="about-visual">
+                        <div class="image-collage">
+                            <div class="collage-item item-1">
+                                <img src="https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                     alt="Manufacturing Team" class="img-fluid">
+                            </div>
+                            <div class="collage-item item-2">
+                                <img src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                     alt="Production Floor" class="img-fluid">
+                            </div>
+                            <div class="collage-item item-3">
+                                <img src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                     alt="Precision Tools" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="experience-indicator">
+                            <div class="indicator-content">
+                                <h3>40+</h3>
+                                <p>Years of Innovation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="section-badge">About TechForge</span>
+                        <h2 class="section-title">Transforming Industries Through Advanced Manufacturing</h2>
+                        <p class="about-text">
+                            For over four decades, TechForge Industries has been at the forefront of manufacturing 
+                            innovation. We combine cutting-edge technology with traditional craftsmanship to deliver 
+                            exceptional products across automotive, electronics, and textile sectors.
+                        </p>
+                        <div class="capabilities-grid">
+                            <div class="capability-item">
+                                <div class="capability-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="capability-content">
+                                    <h5>ISO Certified Excellence</h5>
+                                    <p>Maintaining highest quality standards with ISO 9001:2015 and ISO 14001 certifications</p>
+                                </div>
+                            </div>
+                            <div class="capability-item">
+                                <div class="capability-icon">
+                                    <i class="fas fa-globe-americas"></i>
+                                </div>
+                                <div class="capability-content">
+                                    <h5>Global Manufacturing Network</h5>
+                                    <p>Strategic facilities across 15 countries serving clients worldwide</p>
+                                </div>
+                            </div>
+                            <div class="capability-item">
+                                <div class="capability-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <div class="capability-content">
+                                    <h5>Sustainable Operations</h5>
+                                    <p>Committed to environmental responsibility and carbon-neutral manufacturing</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg mt-4">
+                            <i class="fas fa-handshake me-2"></i>Partner With Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <span class="section-badge">Our Work</span>
+                    <h2 class="section-title">Featured Manufacturing Projects</h2>
+                    <p class="section-description">
+                        Discover our portfolio of successful manufacturing projects across different industries
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/279949/pexels-photo-279949.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Automotive Project" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <span class="project-category">Automotive</span>
+                                    <h4>Luxury Vehicle Components</h4>
+                                    <p>High-precision manufacturing for premium automotive brands</p>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Electronics Project" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <span class="project-category">Electronics</span>
+                                    <h4>Smart Device Manufacturing</h4>
+                                    <p>Advanced PCB production for IoT and smart home devices</p>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Textile Project" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <span class="project-category">Textiles</span>
+                                    <h4>Sustainable Fashion Line</h4>
+                                    <p>Eco-friendly textile production for leading fashion brands</p>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Industrial Manufacturing" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <span class="project-category">Industrial</span>
+                                    <h4>Heavy Machinery Production</h4>
+                                    <p>Large-scale manufacturing for industrial equipment</p>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Quality Control" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <span class="project-category">Quality</span>
+                                    <h4>Advanced Testing Systems</h4>
+                                    <p>Cutting-edge quality control and testing facilities</p>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                                 alt="Precision Tools" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <span class="project-category">Tools</span>
+                                    <h4>Precision Tool Manufacturing</h4>
+                                    <p>High-precision tools and equipment for various industries</p>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <span class="section-badge">Get In Touch</span>
+                    <h2 class="section-title">Ready to Transform Your Manufacturing?</h2>
+                    <p class="section-description">
+                        Contact our expert team to discuss your manufacturing needs and discover how we can help
+                    </p>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Headquarters</h5>
+                                <p>789 Industrial Park Drive<br>Manufacturing District<br>Tech Valley, TV 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Phone</h5>
+                                <p>+1 (555) 123-4567<br>+1 (555) 123-4568</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Email</h5>
+                                <p>info@techforge.com<br>sales@techforge.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Business Hours</h5>
+                                <p>Mon - Fri: 7:00 AM - 7:00 PM<br>Sat: 8:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                                        <label for="firstName">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                                        <label for="lastName">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                                        <label for="email">Email Address</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                                        <label for="phone">Phone Number</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="service" required>
+                                            <option value="">Choose Manufacturing Service</option>
+                                            <option value="automotive">Automotive Manufacturing</option>
+                                            <option value="electronics">Electronics Manufacturing</option>
+                                            <option value="textile">Textile Manufacturing</option>
+                                            <option value="custom">Custom Manufacturing</option>
+                                            <option value="consultation">Manufacturing Consultation</option>
+                                        </select>
+                                        <label for="service">Manufacturing Service</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="message" rows="5" placeholder="Project Details" required></textarea>
+                                        <label for="message">Tell us about your project requirements...</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <i class="fas fa-industry me-2"></i>
+                            <span>TechForge Industries</span>
+                        </div>
+                        <p class="footer-description">
+                            Leading manufacturing excellence across automotive, electronics, and textile industries 
+                            with over 40 years of innovation and quality commitment.
+                        </p>
+                        <div class="social-media">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Services</h5>
+                        <ul>
+                            <li><a href="#">Automotive</a></li>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">Textiles</a></li>
+                            <li><a href="#">Quality Control</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Leadership</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Investors</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Resources</h5>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">White Papers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Legal</h5>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Compliance</a></li>
+                            <li><a href="#">Certifications</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright">&copy; 2025 TechForge Industries. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="certifications">
+                            <span class="cert-badge">ISO 9001:2015</span>
+                            <span class="cert-badge">ISO 14001</span>
+                            <span class="cert-badge">OHSAS 18001</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
